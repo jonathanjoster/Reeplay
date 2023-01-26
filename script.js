@@ -3,7 +3,7 @@ const playlist = [
   ['Stella Jang', 'Villain'],
   ['Claude Debussy', 'Préludes Book2 No.5. Bruyeres'],
   ['Jake25.17', 'What Falling in Love Feels Like'],
-  ['Aozora Kimishima', 'Muko gami'],
+  ['Ohzora Kimishima', 'Muko gami'],
   ['Donny Hathaway', 'This Christmas']
 ];
 const path_to_playlist_code = '../img/code.png';

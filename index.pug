@@ -21,17 +21,19 @@ html(lang="en")
           .left
             p.head#title
             p.body#playlist
-          .middle
-            .middle-text
-              //- img(src="../img/Spotify_Logo_CMYK_Black.png")
-              p.head Spotify
-            .middle-code
-              img#playlist-code
-          .right
-            p.head#photo-by
-            p.body#place
-            p.body#address
+          .middle-right-wrapper
+            .middle
+              .middle-text
+                //- img(src="../img/Spotify_Logo_CMYK_Black.png")
+                p.head Spotify
+              .middle-code
+                img#playlist-code
+            .right
+              p.head#photo-by
+              p.body#place
+              p.body#address
 
+    h1 Size can be changed for pc/sp size.
     button Download
     script(src="https://html2canvas.hertzen.com/dist/html2canvas.js")
     script(src="../script.js")
