@@ -6,7 +6,7 @@ const playlist = [
   ['Ohzora Kimishima', 'Muko gami'],
   ['Donny Hathaway', 'This Christmas']
 ];
-const path_to_playlist_code = '../img/code.png';
+const path_to_playlist_code = './img/code.png';
 const photo_by = 'me';
 const place = 'Kamiiso no Torii';
 const address = 'Oarai, Ibaraki, Japan.';
