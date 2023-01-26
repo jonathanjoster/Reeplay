@@ -1,0 +1,37 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Reeplay site
+    link(rel='stylesheet', href='reset.css')
+    link(rel='stylesheet', href="style.css")
+    link(rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>⚡️</text></svg>")
+    //- google fonts
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Roboto&display=swap" rel="stylesheet")
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  body
+    .theater#canvas
+      .container
+        .top
+          img(src="../img/IMG_3401.png")
+        .bottom
+          .left
+            p.head#title
+            p.body#playlist
+          .middle
+            .middle-text
+              //- img(src="../img/Spotify_Logo_CMYK_Black.png")
+              p.head Spotify
+            .middle-code
+              img#playlist-code
+          .right
+            p.head#photo-by
+            p.body#place
+            p.body#address
+
+    button Download
+    script(src="https://html2canvas.hertzen.com/dist/html2canvas.js")
+    script(src="../script.js")
